@@ -1,0 +1,64 @@
+.tweet,
+.query {
+	float: left;
+	width: 98%;
+	padding: 12px;
+	background: none repeat scroll 0% 0% #d5d5d5;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 3px 4px #a9a9ab inset;
+	behavior: url('includes/PIE.htc');
+	margin: 6px 0px 0px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.tweet2 {
+	float: left;
+	width: 92%;
+	padding: 12px;
+	background: none repeat scroll 0% 0% #d5d5d5;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 3px 4px #a9a9ab inset;
+	behavior: url('includes/PIE.htc');
+	margin: 6px 0px 0px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.tweet_list {
+}
+	
+
+.tweet_list li {
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0.5em;
+	list-style-type: none;
+	margin-left: -40px;
+	background-image: none;
+}
+		
+.tweet_list li a {
+	font-size: 11px;
+}
+		
+.tweet_list .tweet_even {
+	border-bottom: 1px dotted #999999;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+.tweet_list .tweet_odd {
+	border-bottom: 1px dotted #999999;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+	
+.tweet_list .tweet_avatar {
+	float:left;
+	margin-bottom: 5px;
+}
+		
+.tweet_list .tweet_avatar img {
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: 5px;
+}
